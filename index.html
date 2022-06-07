@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <!--Box Icon-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <nav>
+        <img src="./img/logo.svg" alt="">
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h1>Simply Recipes</h1>
+            <p>No fluff, Just Recipes</p>
+        </section>
+
+        <section>
+            <form>
+                <input type="text" placeholder="Search Your Recipe...">
+                <button class="search-btn" id="search-btn">Submit</button>
+            </form>
+        </section>
+        
+        <section class="search-result" id="search-result"></section>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
