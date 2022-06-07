@@ -130,7 +130,7 @@ h2{
         display: inline-block;
     }
     
-    button{
+    .search-btn{
         width: 25%;
         height: 40px;
         border: none;
