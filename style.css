@@ -139,7 +139,9 @@ input {
 
 .modal-body{
     padding: 10px 15px;
-    font-size: 60%;
+    font-size: 100%;
+    height: 350px;
+    overflow-y: scroll;
 }
 
 .flex-container{
@@ -218,10 +220,6 @@ ul li{
 
     .meal-content-body{
         width: 700px;
-    }
-
-    .modal-body{
-        font-size: 100%;
     }
 
     .modal-header{

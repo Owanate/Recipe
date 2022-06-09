@@ -53,7 +53,7 @@ function mealRecipeModal(data) {
         <div class="meal-content-body">
         <div class="modal-header">
             <h2 class="recipe-title">${data.title}</h2>
-            <a href="#" class = "recipe-close-btn">&times;</a>
+            <a href="#" onclick="(e) => e.preventDefault()" class = "recipe-close-btn">&times;</a>
         </div>
         <div class="modal-body">
         <div class="flex-container">
