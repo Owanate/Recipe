@@ -127,12 +127,12 @@ input {
 .recipe-close-btn{
     text-decoration: none;
     color: #000000;
-    font-size: 40px;
-    padding-left: 10px;
+    font-size: 30px;
+    padding-right: 10px;
 }
 
 .recipe-title{
-    margin-left: 20px;
+    /* margin-left: 20px; */
     color: #645cff;
     text-align: center;
 }
@@ -222,5 +222,14 @@ ul li{
 
     .modal-body{
         font-size: 100%;
+    }
+
+    .modal-header{
+        justify-content: space-around;
+    }
+
+    .recipe-close-btn{
+        margin-left: 200px;
+        font-size: 40px;
     }
 }
